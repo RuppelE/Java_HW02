@@ -32,13 +32,14 @@ public class Main {
 }
 */
 // second task
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {5, 3, 8, 4, 2};
+        int[] array = {7, 3, 2, 8, 5, 1};
 
         // Создание лог-файла
         try (FileWriter fileWriter = new FileWriter("log.txt");
@@ -57,6 +58,7 @@ public class Main {
             e.printStackTrace();
         }
     }
+
     private static void printArray(int[] array, PrintWriter printWriter) {
     }
 }

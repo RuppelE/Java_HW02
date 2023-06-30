@@ -1,8 +1,10 @@
 //Реализуйте алгоритм сортировки пузырьком числового массива,
 // результат после каждой итерации запишите в лог-файл.
+
 import java.io.PrintWriter;
 
-public class SecondTask { static void bubbleSort(int[] array, PrintWriter printWriter) {
+public class SecondTask {
+    static void bubbleSort(int[] array, PrintWriter printWriter) {
         int n = array.length;
         boolean swapped;
 
